@@ -7,7 +7,7 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-#preloader{
+#loading{
     background:#000 url("/Personal_Portfolio/img/gif.gif") no-repeat center;
     background-size: 20%;
     height: 100vh;
