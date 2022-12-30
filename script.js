@@ -70,9 +70,8 @@ $(document).ready(function(){
             }
         }
     });
-});
-
-var loader = document.getElementById("preloader");
-window.addEventListener("load", function(){
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function(){
     loader.style.display = "none";
-})
+   });
+});
