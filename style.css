@@ -26,7 +26,7 @@ html{
     background: #555;
 }
 
-/* all similar content styling codes */
+/* all similar content codes */
 section{
     padding: 100px 0;
 }
@@ -168,7 +168,7 @@ section .title::after{
 }
 
 
-/* home section styling */
+/* home section  */
 .home{
     display: flex;
     background: url("/img/bg1.png") no-repeat center;
@@ -219,7 +219,7 @@ section .title::after{
     background: none;
 }
 
-/* about section styling */
+/* about section  */
 .about .about-content .left{
     width: 45%;
 }
@@ -260,7 +260,7 @@ section .title::after{
     background: none;
 }
 
-/* Education section styling */
+/* Education section  */
 .Education, .Certificate{
     color:#fff;
     background: #111;
@@ -306,7 +306,7 @@ section .title::after{
 }
 
 
-/* skills section styling */
+/* skills section  */
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }
@@ -377,7 +377,7 @@ section .title::after{
     width: 50%;
 }
 
-/* Certificate section styling */
+/* Certificate section */
 .Certificate .carousel .card{
     background: #222;
     border-radius: 6px;
@@ -437,7 +437,7 @@ section .title::after{
     background: crimson!important;
 }
 
-/* contact section styling */
+/* contact section  */
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
@@ -476,7 +476,7 @@ section .title::after{
     width:25px;
     margin:0 10px;
 }
-/* footer section styling */
+/* footer section  */
 footer{
     background: #111;
     padding: 15px 23px;
@@ -492,7 +492,7 @@ footer span a:hover{
 }
 
 
-/* responsive media query start */
+/* responsive media query  */
 @media (max-width: 1104px) {
     .about .about-content .left img{
         height: 350px;
