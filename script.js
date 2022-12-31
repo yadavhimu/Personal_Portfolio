@@ -70,9 +70,10 @@ $(document).ready(function(){
             }
         }
     });
+    var preloader = document.getElementById('loading');
+
+     function myfunction(){
+    preloader.style.display = "none";
+  }
 });
 
-var loader = document.getElementById("preloader");
-window.addEventListener("load", function(){
-    loader.style.display = "none";
-})

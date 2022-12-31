@@ -7,6 +7,14 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+#loading{
+    background:#000 url("/Personal_Portfolio/img/gif.gif") no-repeat center;
+    background-size: 20%;
+    height: 100vh;
+    width:100%;
+    position: fixed;
+    z-index:100%;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -614,12 +622,4 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
-}
-#preloader{
-    background:#000 url("/Personal_Portfolio/img/gif.gif") no-repeat center;
-    background-size: 20%;
-    height: 100vh;
-    width:100%;
-    position: fixed;
-    z-index:100%;
 }
