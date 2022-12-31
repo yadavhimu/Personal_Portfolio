@@ -71,9 +71,9 @@ $(document).ready(function(){
         }
     });
 });
-var preloader = document.getElementById('loading');
+var loader = document.getElementById('Preloader');
 
-     function myfunction(){
-    preloader.style.display = "none";
-  }
+     window.addEventListener("load",function(){
+    loader.style.display = "none";
+  });
 
