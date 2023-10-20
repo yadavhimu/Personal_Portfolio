@@ -113,11 +113,7 @@ section .title::after{
 .navbar .logo a span{
     color: crimson;
     transition: all 0.3s ease;
-}
-@keyframes leftright{
-    from{padding-left:100px;}
-    to {padding-right:80px;}
-}   
+} 
 .navbar.sticky .logo a span{
     color: #fff;
 }
