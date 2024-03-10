@@ -381,7 +381,7 @@ section .title::after{
     width: 50%;
 }
 
-/* Certificate section */
+/* Project section */
 .Certificate .carousel .card{
     background: #222;
     border-radius: 6px;
@@ -442,6 +442,9 @@ section .title::after{
 }
 
 /* contact section  */
+.contact {
+    background-color:blue ;
+}
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
@@ -482,7 +485,8 @@ section .title::after{
 }
 /* footer section  */
 footer{
-    background: #111;
+    background-color: yellow;
+    /* background: #111; */
     padding: 15px 23px;
     color: #fff;
     text-align: center;
