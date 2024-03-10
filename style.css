@@ -443,7 +443,7 @@ section .title::after{
 
 /* contact section  */
 .contact {
-    background-color:blue ;
+    background-color:#fff ;
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -485,8 +485,8 @@ section .title::after{
 }
 /* footer section  */
 footer{
-    background-color: yellow;
-    /* background: #111; */
+    /* background-color: yellow; */
+    background: #111;
     padding: 15px 23px;
     color: #fff;
     text-align: center;
